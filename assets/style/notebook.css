@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 @media screen and (min-width: 1025px) {
 
     * {
@@ -12,7 +14,7 @@
         justify-content: space-between;
         width: 100%;
         height: 42px;
-        background-color: rgb(168, 179, 189)
+        background-color: rgb(31, 26, 26)
     }
 
     nav {
@@ -35,13 +37,14 @@
 
     li a {
         display: flex;
-        color: black;
+        color: white;
+        font-family: 'Oswald', sans-serif;
         padding: 2px;
         font-size: x-large;
     }
 
     li a:hover {
-        background-color: rgb(117, 122, 126)
+        background-color: rgb(161, 155, 155)
     }
 
     /* main */
@@ -55,15 +58,33 @@
 
     /* aside */
 
-    aside{
-        background-color: blue;
+    aside {
+        display: flex;
+        justify-content: center;
+        background-color: white;
         width: 100%;
+    }
+
+    #image-aside {
+        width: 500px;
+        height: 400px;
+        margin-top: 50px;
+
     }
 
 
     article {
-        background-color: brown;
+        display: flex;
+        justify-content: center;
+        background-color: white;
         width: 100%;
+    }
+
+    .welcome h1,
+    .welcome p {
+        display: flex;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
     }
 
     /* footer */
@@ -73,7 +94,9 @@
         flex-direction: column;
         width: 100%;
         height: 40px;
-        background-color: rgb(168, 179, 189);
+        color: white;
+        font-family: 'Oswald', sans-serif;
+        background-color: rgb(31, 26, 26);
         text-align: center;
     }
 
