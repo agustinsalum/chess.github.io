@@ -100,4 +100,62 @@
         text-align: center;
     }
 
+    .gallery {
+        width: 90%;
+        height: 400px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 5px;
+        margin-top: 50px;
+    }
+
+    .box-1 {
+        background: url(../images/attack-king.jpg) no-repeat center/cover;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+
+    .box-2 {
+        background: url(../images/bishop.jpg) no-repeat center/cover;
+        grid-column: 3/5;
+        grid-row: 1/2;
+    }
+
+    .box:nth-child(3) {
+        background: url(../images/departure.jpg) no-repeat center/cover;
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+
+    .box:nth-child(4) {
+        background: url(../images/horse.jpg) no-repeat center/cover;
+        grid-area: 2/4/4/5;
+    }
+
+
+    .box:nth-child(5) {
+        background: url(../images/horses.jpg) no-repeat center/cover;
+        grid-column: 1/3;
+        grid-row: 3/4;
+    }
+
+    .box:nth-child(6) {
+        background: url(../images/move.jpg) no-repeat center/cover;
+    }
+
+    .box-7 {
+        background: url(../images/pawn.jpg) no-repeat center/cover;
+        grid-column: 3/4;
+        grid-row: 3/4;
+    }
+
+    .box-8 {
+        background: url(../images/w-king.jpg) no-repeat center/cover;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
 }
