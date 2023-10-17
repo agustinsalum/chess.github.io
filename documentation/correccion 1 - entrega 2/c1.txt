@@ -1,0 +1,11 @@
+Correcciones para la parte 2:
+    - Incluir la etiqueta "section" (colocar la etiquetas "article" adentro)
+    - Más contenido dentro de cada una de las páginas html
+
+Objetivo parte 2:
+    - Deploy github pages
+    - Enlace repositorio github
+    - 2 componentes de Bootstrap
+    - JavaScript (opcional)
+    - Comentarios en el proyecto
+    - Adaptarlo a celulares
