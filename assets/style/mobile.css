@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+
 @media screen and (max-width: 768px) {
 
 
@@ -49,26 +51,21 @@
     /* main */
 
     .conteiner {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        height: 550px;
+        flex-direction: column;
+        height: auto;
     }
 
     /* aside */
 
     aside {
-        display: flex;
-        justify-content: center;
-        background-color: white;
-        width: 100%;
+        order: -1;
+        margin-top: 20px;
     }
 
     #image-aside {
-        width: 500px;
-        height: 400px;
-        margin-top: 50px;
-
+        width: 100%;
+        height: auto;
+        margin-top: 0;
     }
 
 
@@ -137,6 +134,14 @@
         font-family: 'Oswald', sans-serif;
         background-color: rgb(31, 26, 26);
         text-align: center;
+    }
+
+
+    .gallery {
+        width: 100%;
+        margin-top: 20px;
+        grid-template-columns: repeat(2, 50%);
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 
     .gallery {
