@@ -1,0 +1,10 @@
+Correcciones para el proyecto final:
+    - Transformar en "Section" el div class container
+    - La etiqueta "Article" debe estar envuelta por una etiqueta "Section"
+    - El tablero de ajedrez se rompe al achicar la resolucion
+    - Se rompe la pagina entre la resolucion grande y el menu hamburguesa (entre el nav y la imagen principal) 
+
+Objetivo proyecto final:
+    - Correcciones anteriores
+    - Readme.md
+    - Experiencia de usuario basica
