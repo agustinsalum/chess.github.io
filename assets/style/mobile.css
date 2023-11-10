@@ -50,7 +50,7 @@
 
     /* main */
 
-    .conteiner {
+    .sectionMain {
         flex-direction: column;
         height: auto;
     }

@@ -8,3 +8,7 @@ Objetivo proyecto final:
     - Correcciones anteriores
     - Readme.md
     - Experiencia de usuario basica
+
+Realizado:
+    - Se realizo el archivo Readme.md
+    - Se reemplazo el div container por "Section" en todas las secciones
