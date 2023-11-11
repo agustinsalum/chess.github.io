@@ -8,6 +8,7 @@ Objetivo proyecto final:
     - Correcciones anteriores
     - Readme.md
     - Experiencia de usuario basica
+    - Legibilidad del codigo
 
 Realizado:
     - Se realizo el archivo Readme.md
@@ -15,3 +16,14 @@ Realizado:
     - Todas las etiquetas "Article" estan contenidas por un "Section"
     - Se arreglo el tablero en resolucion para telefono
     - Se arreglo la resolucion para tablet
+    - Experiencia de usuario basica
+        - Menu claro
+        - Uso adecuado de colores
+        - Enlaces bien organizados
+        - Adaptable a diferentes pantallas
+        - Formulario simple de completar
+    - Legibilidad del codigo
+        - Nombres significativos
+        - Identacion
+        - Comentarios
+    - Agregado enlace externo

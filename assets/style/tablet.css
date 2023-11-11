@@ -196,4 +196,14 @@
         flex-direction: column;
         margin-left: 10px;
     }
+
+    .footer-message {
+        color: #007BFF;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    .footer-message:hover {
+        color: #0056b3;
+    }
 }
