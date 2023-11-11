@@ -13,5 +13,5 @@ Realizado:
     - Se realizo el archivo Readme.md
     - Se reemplazo el div container por "Section" en todas las secciones
     - Todas las etiquetas "Article" estan contenidas por un "Section"
-    - 
-    - La pagina no rompe mas en resolucion de tablet
+    - Se arreglo el tablero en resolucion para telefono
+    - Se arreglo la resolucion para tablet

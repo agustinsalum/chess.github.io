@@ -136,14 +136,6 @@
         text-align: center;
     }
 
-
-    .gallery {
-        width: 100%;
-        margin-top: 20px;
-        grid-template-columns: repeat(2, 50%);
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-    }
-
     .gallery {
         width: 90%;
         height: 400px;
@@ -224,6 +216,21 @@
 
     .nav-menu.active {
         display: block;
+    }
+    
+    .board {
+        display: flex;
+        flex-direction: column; /* Cambiado desde row */
+        margin-top: 20px;
+        margin-left: 10px; /* Ajuste del margen izquierdo */
+        font-size: 20px; /* Ajuste del tamaño de la fuente */
+        white-space: pre;
+    }
+
+    .ranking {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
     }
 
 }
