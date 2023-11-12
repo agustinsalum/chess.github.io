@@ -1,6 +1,11 @@
 # Chess Website
 
-¡Bienvenido al sitio de ajedrez! Este proyecto te ofrece una experiencia interactiva relacionada con el fascinante mundo del ajedrez.
+¡Bienvenido al sitio de ajedrez! Este proyecto te ofrece una experiencia interactiva relacionada con el fascinante mundo del ajedrez. El proyecto es la entrega final para el curso de programacion web inicial FrontEnd organizado por BA multiplica 2.0.
+
+## Elementos a entregar
+
+[Link al Desploy en Github](https://agustinsalum.github.io/chess.github.io/)
+[Link al Repositorio de Github](https://github.com/agustinsalum/chess.github.io)
 
 ## Secciones
 
@@ -20,7 +25,13 @@ Descubre quiénes son los jugadores destacados en el mundo del ajedrez.
 
 ## Cómo ejecutar la página
 
-Puedes ejecutar la página de dos maneras:
+1. Primero debemos clonar el repositorio:
+
+´´´
+git clone git@github.com:agustinsalum/chess.github.io.git
+´´´
+
+2. Puedes ejecutar la página de dos maneras:
 
 ### Opción 1: Haciendo clic derecho en `index.html`
 Simplemente haz clic derecho en el archivo `index.html` y selecciona "Abrir con tu navegador favorito". Esto abrirá la página en tu navegador predeterminado.
