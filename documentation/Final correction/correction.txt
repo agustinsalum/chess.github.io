@@ -16,14 +16,7 @@ Realizado:
     - Todas las etiquetas "Article" estan contenidas por un "Section"
     - Se arreglo el tablero en resolucion para telefono
     - Se arreglo la resolucion para tablet
-    - Experiencia de usuario basica
-        - Menu claro
-        - Uso adecuado de colores
-        - Enlaces bien organizados
-        - Adaptable a diferentes pantallas
-        - Formulario simple de completar
-    - Legibilidad del codigo
-        - Nombres significativos
-        - Identacion
-        - Comentarios
+    - Experiencia de usuario basica (menu claro, uso adecuado de colores, adaptable a diferentes pantallas,etc)
+    - Legibilidad del codigo (nombres significativos, identacion, comentarios..etc)
     - Agregado enlace externo
+    - Agregado evento onClick

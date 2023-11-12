@@ -45,7 +45,7 @@
             </aside>
             <article class="ranking">
                 <!-- article -->
-                <table class="table">
+                <table class="table" id="table">
                     <thead>
                         <tr>
                             <th scope="col">Posicion</th>
@@ -57,40 +57,81 @@
                         <tr>
                             <th scope="row">1</th>
                             <td>Magnus Carlsen</td>
-                            <td>Noruega</td>
+                            <td>Norway</td>
                         </tr>
+
                         <tr>
                             <th scope="row">2</th>
                             <td>Fabiano Caruana</td>
-                            <td>Estados Unidos</td>
+                            <td>United States</td>
                         </tr>
+
                         <tr>
                             <th scope="row">3</th>
+                            <td>Hikaru Nakamura</td>
+                            <td>United States</td>
+                        </tr>
+
+                        <tr>
+                            <th scope="row">4</th>
                             <td>Ding Liren</td>
                             <td>China</td>
                         </tr>
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>Hikaru Nakamura</td>
-                            <td>Estados Unidos</td>
-                        </tr>
+
                         <tr>
                             <th scope="row">5</th>
-                            <td>Alireza Firouzja</td>
-                            <td>Francia</td>
+                            <td>Ian Nepomniachtchi</td>
+                            <td>Russia</td>
                         </tr>
+
+                        <!-- hidden until button pressed -->
+                        
+                        <tr style="display: none;">
+                            <th scope="row">6</th>
+                            <td>Alireza Firouzja</td>
+                            <td>France</td>
+                        </tr>
+                        
+                        <tr style="display: none;">
+                            <th scope="row">7</th>
+                            <td>Anish Giri</td>
+                            <td>Netherlands</td>
+                        </tr>
+                        
+                        <tr style="display: none;">
+                            <th scope="row">8</th>
+                            <td>Wesley So</td>
+                            <td>United States</td>
+                        </tr>
+
+                        <tr style="display: none;">
+                            <th scope="row">9</th>
+                            <td>Sergey Karjakin</td>
+                            <td>Russia</td>
+                        </tr>
+
+                        <tr style="display: none;">
+                            <th scope="row">10</th>
+                            <td>Viswanathan Anand</td>
+                            <td>India</td>
+                        </tr>
+
                     </tbody>
                 </table>
+
+                <button type="button" class="btn btn-dark" onclick="show_hide_rows()">More players</button>
 
             </article>
         </section>
     </main>
     <footer>
         <!-- footer -->
-        <p>Chess 2023 - <a href="https://buenosaires.gob.ar/desarrolloeconomico/bajoven/ba-multiplica-20" class="footer-message">BA Multiplica 2.0</a></p>
+        <p> Chess 2023 - Agustin Salum - <a href="https://buenosaires.gob.ar/desarrolloeconomico/bajoven/ba-multiplica-20"
+                class="footer-message">BA Multiplica 2.0</a></p>
 
     </footer>
     <script type="text/javascript" src="assets/js/hamburger.js"></script>
+    <script type="text/javascript" src="assets/js/rows.js"></script>
 </body>
 
 </html>
